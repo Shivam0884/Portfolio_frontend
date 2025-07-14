@@ -1,0 +1,15 @@
+@import "tailwindcss";
+.custom-gradient {
+  background: linear-gradient(
+    to bottom right,
+    #ffc107,
+    #ff18b8
+  ); /* example colors */
+}
+.cursor:hover {
+  cursor: pointer;
+}
+
+.my-element {
+  border: 1px solid #ffc107;
+}
