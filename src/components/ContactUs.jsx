@@ -64,11 +64,14 @@ export default function ContactUs() {
               const message = form.message.value;
 
               try {
-                const res = await fetch("http://localhost:5000/send-sms", {
-                  method: "POST",
-                  headers: { "Content-Type": "application/json" },
-                  body: JSON.stringify({ name, email, phone, message }),
-                });
+                const res = await fetch(
+                  "https://portfolio-backend-oj9a.onrender.com/send-sms",
+                  {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ name, email, phone, message }),
+                  }
+                );
 
                 const data = await res.json();
                 if (data.success) {
