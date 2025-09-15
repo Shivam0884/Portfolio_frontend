@@ -19,7 +19,7 @@ export default function ThreeBackground() {
 
     //create dense white stars for the background
     const starGeometry = new THREE.BufferGeometry(); //Holds raw position data for each star
-    const starCount = 3000;
+    const starCount = 5000;
     const starPositions = new Float32Array(starCount * 3);
 
     for (let i = 0; i < starCount * 3; i++) {
@@ -41,8 +41,8 @@ export default function ThreeBackground() {
     const handleMouseMove = (event) => {
       const mouseX = (event.clientX / window.innerHeight) * 2 - 1;
       const mouseY = (event.clientY / window.innerHeight) * 2 + 1;
-      starsField.rotation.x += mouseY * 0.001;
-      starsField.rotation.y += mouseX * 0.001;
+      starsField.rotation.x += mouseY * 0.005;
+      starsField.rotation.y += mouseX * 0.005;
     };
 
     window.addEventListener("mousemove", handleMouseMove);
@@ -61,8 +61,8 @@ export default function ThreeBackground() {
     //render loop
     const animate = () => {
       requestAnimationFrame(animate);
-      starsField.rotation.x += 0.001; //for slow rotation
-      starsField.rotation.y += 0.001;
+      starsField.rotation.x += 0.005; //for slow rotation
+      starsField.rotation.y += 0.005;
       renderer.render(scene, camera);
     };
 
