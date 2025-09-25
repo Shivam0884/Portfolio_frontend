@@ -71,11 +71,11 @@ function HeroSection() {
                 repeatType: "reverse",
               }}
             >
-              <div className="absolute inset-0 rounded-full bg-gradient-to-r from-[#ffc107] to-[#ff6667] blur-3xl opacity-60 h-full w-full " />
+              <div className="absolute inset-0 rounded-full bg-gradient-to-r from-[#ffc107] to-[#ff6667] blur-3xl opacity-60" />
               <img
-                src="\WhatsApp Image 2025-07-05 at 17.14.22_40c5f2ca.png"
+                src="\Gemini_Generated_Image_o3nx99o3nx99o3nx (1).png"
                 alt="Hero Pic"
-                className="realtive z-10 rounded-full max-h-full shadow-2xl transform transition-transform duration-300 ease-in-out hover:scale-110"
+                className="relative z-10 w-full h-full object-cover rounded-full shadow-2xl transform transition-transform duration-300 ease-in-out hover:scale-110"
               />
             </motion.div>
           </figure>
