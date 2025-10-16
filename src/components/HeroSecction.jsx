@@ -46,7 +46,7 @@ function HeroSection() {
                       animate="animate"
                     />
                   </svg>
-                  <a href="cv updated.pdf" download>
+                  <a href="new cv ..pdf" download>
                     <span className="cursor-pointer ">Download Resume</span>
                   </a>
                 </motion.button>
