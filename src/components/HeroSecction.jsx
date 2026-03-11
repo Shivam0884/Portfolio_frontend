@@ -22,10 +22,12 @@ function HeroSection() {
                 </h1>
               </header>
               <p className="text-gray-300 text-base pt-8 text-center lg:text-left mx-auto max-w-[370px] md:max-w-xl">
-                I am a software Developer who enjoys building websites and
-                solving <br /> complex problems. I love learning new things,
-                exploring technologies, <br />
-                and taking on challenges.
+                I am a pre-final year B.Tech student in Industrial Design
+                Engineering at the National Institute of Technology, Rourkela. I
+                am passionate about approaching challenges with a
+                problem-solving mindset and continuously strive to learn and
+                improve through practical experiences and collaborative
+                environments.
               </p>
               <section className="flex items-center gap-3 pt-6 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
                 {/* <figure className="w-56 e">
